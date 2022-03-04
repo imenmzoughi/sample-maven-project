@@ -1,4 +1,4 @@
-package 1;
+package main.java.app;
 
 /**
  * Hello world!

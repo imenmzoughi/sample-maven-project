@@ -1,4 +1,4 @@
 FROM docker.io/openjdk:8
 EXPOSE 8082
-ADD target\1-1.jar imen.jar
+ADD target/1-1.jar imen.jar
 ENTRYPOINT [ "java","-jar","/1-1.jar" ]
